@@ -1,0 +1,15 @@
+body{
+    padding-top: 50px;
+    max-width: 500px;
+    margin: auto;
+}
+
+h1{
+    padding-top: 50px;
+    font-family: 'Righteous', cursive;
+    color: rgb(207, 20, 20);
+}
+
+h3{
+    margin-top: 20px;
+}

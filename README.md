@@ -1,4 +1,5 @@
 # Project: Django
+This app was created with [Django](https://www.djangoproject.com/) and styled with [Bootstrap](https://getbootstrap.com/docs/3.4/css/).
 
 ### Feauture Tasks
 
@@ -15,3 +16,4 @@ Use Django’s built in testing tools
 
 ### Resource
 [Django Docs](https://www.djangoproject.com/)
+[Styling in Django](https://tutorial.djangogirls.org/en/css/)
