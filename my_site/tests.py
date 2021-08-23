@@ -25,3 +25,13 @@ class ThingsTests(SimpleTestCase):
         self.assertTemplateUsed(response, 'about.html')
         self.assertTemplateUsed(response, 'base.html')
 
+    def test_poetry_status_code(self):
+        url = reverse('poetry')
+        response = self.client.get(url)
+        self.assertEqual(response.status_code, 200)
+
+    def test_poetry_template(self):
+        url = reverse('poetry')
+        response = self.client.get(url)
+        self.assertTemplateUsed(response, 'poetry.html')
+        self.assertTemplateUsed(response, 'base.html')
